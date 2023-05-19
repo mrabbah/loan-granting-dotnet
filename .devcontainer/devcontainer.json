@@ -1,0 +1,16 @@
+{
+	"name": "C# (.NET)",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"github.copilot"
+			],
+			"settings": {}
+		}
+	},
+	"forwardPorts": [8080],
+	"postCreateCommand": "dotnet restore"
+  }
+  
